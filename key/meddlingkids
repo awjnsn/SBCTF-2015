@@ -1,8 +1,7 @@
 <html>
 	<head>
 		<script type="text/javascript">
-				alert("That is not the flag!")
-				window.history.back();
+				window.location="https://sbctf.net/challenges/six_6811.html"
 		</script>
 	</head>
 </html>
