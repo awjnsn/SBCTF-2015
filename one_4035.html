@@ -4,5 +4,12 @@
 	</head>
 	<body>
 		<h1>Challenge One</h1>
+		Flag: <input type="text" id="flag" value = "">
+		<button onclick="enterFlag()">Submit</button>
+		<script>
+			function enterFlag(){
+				window.location = document.getElementById("flag").value + ".html";
+			}
+		</script>
 	</body>
 </html>
