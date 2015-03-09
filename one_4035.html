@@ -2,8 +2,20 @@
 	<head>
 		<title>SBCTF</title>
 	</head>
+	<style>
+		p.visible{
+			visibility: visible;
+		}
+		p.invisible{
+			visibility: hidden
+		}
+	</style>
 	<body>
+		<!-- Remember to check the html if you need a hint!  There should be a small hint for every problem.-->
 		<h1>Challenge One</h1>
+		<p class = "visible">Flag Below</p>
+		<p class = "invisible">doctorgriffin</p>
+		<p class = "visible">Flag Above</p>
 		Flag: <input type="text" id="flag" value = "">
 		<button onclick="enterFlag()">Submit</button>
 		<script>
