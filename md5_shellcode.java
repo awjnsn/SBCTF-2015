@@ -13,7 +13,7 @@ public class md5_shellcode {
 	/**
 	 * Md5 hash function, do not modify
 	 * @param dwarf Dwarf in the company of Thorin
-	 * @param number Number 1 - 10000
+	 * @param number Number 1 - 9999
 	 * @param color Color of the rainbow
 	 * @return md5 hash of dwarf + number + color
 	 */
